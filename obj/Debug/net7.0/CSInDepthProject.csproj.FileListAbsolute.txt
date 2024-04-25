@@ -1,0 +1,15 @@
+D:\CSInDepthProject\bin\Debug\net7.0\CSInDepthProject.exe
+D:\CSInDepthProject\bin\Debug\net7.0\CSInDepthProject.deps.json
+D:\CSInDepthProject\bin\Debug\net7.0\CSInDepthProject.runtimeconfig.json
+D:\CSInDepthProject\bin\Debug\net7.0\CSInDepthProject.dll
+D:\CSInDepthProject\bin\Debug\net7.0\CSInDepthProject.pdb
+D:\CSInDepthProject\obj\Debug\net7.0\CSInDepthProject.csproj.AssemblyReference.cache
+D:\CSInDepthProject\obj\Debug\net7.0\CSInDepthProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\CSInDepthProject\obj\Debug\net7.0\CSInDepthProject.AssemblyInfoInputs.cache
+D:\CSInDepthProject\obj\Debug\net7.0\CSInDepthProject.AssemblyInfo.cs
+D:\CSInDepthProject\obj\Debug\net7.0\CSInDepthProject.csproj.CoreCompileInputs.cache
+D:\CSInDepthProject\obj\Debug\net7.0\CSInDepthProject.dll
+D:\CSInDepthProject\obj\Debug\net7.0\refint\CSInDepthProject.dll
+D:\CSInDepthProject\obj\Debug\net7.0\CSInDepthProject.pdb
+D:\CSInDepthProject\obj\Debug\net7.0\CSInDepthProject.genruntimeconfig.cache
+D:\CSInDepthProject\obj\Debug\net7.0\ref\CSInDepthProject.dll
