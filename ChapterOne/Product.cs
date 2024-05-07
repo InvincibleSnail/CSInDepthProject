@@ -13,7 +13,7 @@ public class Product
 
     public decimal? Price { get; private set; }
 
-    Product()
+    public Product()
     {
     }
 

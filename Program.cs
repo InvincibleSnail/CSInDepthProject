@@ -1,17 +1,26 @@
-﻿using System.Collections;
-using CSInDepthProject.ChapterOne;
+﻿using System.Text;
+using CSInDepthProject.ChapterThree;
 
 namespace CSInDepthProject;
+
+class A
+{
+}
+
+class B : A
+{
+}
 
 class Program
 {
     static void Main(string[] args)
     {
-        List<Product> list = Product.GetSampleProducts();
-        // list.FindAll(p => p.Price > 10).ForEach(Console.WriteLine);
-        foreach (var VARIABLE in list.Where(p => p.Price == null))
+        static void SetObject(A a)
         {
-            Console.WriteLine(VARIABLE);
+            
         }
+
+        Action<A> actObject = SetObject;
+        Action<B> actString = actObject;
     }
 }
