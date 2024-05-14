@@ -1,26 +1,17 @@
 ﻿using System.Text;
-using CSInDepthProject.ChapterThree;
+using CSInDepthProject.ChapterFive;
 
 namespace CSInDepthProject;
 
-class A
+class Programw
 {
-}
-
-class B : A
-{
-}
-
-class Program
-{
+    static void t(int x)
+    {
+        Console.WriteLine(x);
+    }
     static void Main(string[] args)
     {
-        static void SetObject(A a)
-        {
-            
-        }
-
-        Action<A> actObject = SetObject;
-        Action<B> actString = actObject;
+        Predicate<int> p = i => i > 0;
+        Console.WriteLine(p(-1));
     }
 }
