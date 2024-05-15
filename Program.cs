@@ -5,13 +5,29 @@ namespace CSInDepthProject;
 
 class Programw
 {
-    static void t(int x)
-    {
-        Console.WriteLine(x);
-    }
     static void Main(string[] args)
     {
-        Predicate<int> p = i => i > 0;
-        Console.WriteLine(p(-1));
+        ClosureTest.MethodInvoker[] delegates = new ClosureTest.MethodInvoker[2];
+        int outside = 0;
+        for (int i = 0; i < 2; ++i)
+        {
+            int inside = 0;
+            delegates[i] = delegate
+            {
+                Console.WriteLine("{0},{1}", outside, inside);
+                outside++;
+                inside++;
+            };
+        }
+
+        ClosureTest.MethodInvoker first = delegates[0];
+        ClosureTest.MethodInvoker second = delegates[1];
+        
+        first();
+        first();
+        first();
+        
+        second();
+        second();
     }
 }
