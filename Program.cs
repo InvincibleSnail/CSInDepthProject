@@ -1,33 +1,30 @@
 ﻿using System.Text;
-using CSInDepthProject.ChapterFive;
+using CSInDepthProject.ChapterSix;
 
 namespace CSInDepthProject;
 
 class Programw
 {
+    private static int[] timetable = new int[] { 1, 2, 3 };
+
+    private static int i = 0;
+
+    public static IEnumerable<int> daterange
+    {
+        get
+        {
+            for (; i < timetable.Length; ++i)
+            {
+                yield return timetable[i];
+            }
+        }
+    }
+
     static void Main(string[] args)
     {
-        ClosureTest.MethodInvoker[] delegates = new ClosureTest.MethodInvoker[2];
-        int outside = 0;
-        for (int i = 0; i < 2; ++i)
+        foreach (var day in daterange)
         {
-            int inside = 0;
-            delegates[i] = delegate
-            {
-                Console.WriteLine("{0},{1}", outside, inside);
-                outside++;
-                inside++;
-            };
+            Console.WriteLine(day);
         }
-
-        ClosureTest.MethodInvoker first = delegates[0];
-        ClosureTest.MethodInvoker second = delegates[1];
-        
-        first();
-        first();
-        first();
-        
-        second();
-        second();
     }
 }

@@ -15,6 +15,10 @@ public class IterationSample : IEnumerable
 
     public IEnumerator GetEnumerator()
     {
-        return new IterationSampleIterator(this);
+        // return new IterationSampleIterator(this);
+        for (int i = 0; i < values.Length; ++i)
+        {
+            yield return values[(i + startingPoint) % values.Length];
+        }
     }
 }

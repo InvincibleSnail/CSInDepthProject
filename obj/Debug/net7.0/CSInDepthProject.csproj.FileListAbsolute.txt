@@ -13,3 +13,17 @@ D:\CSInDepthProject\obj\Debug\net7.0\refint\CSInDepthProject.dll
 D:\CSInDepthProject\obj\Debug\net7.0\CSInDepthProject.pdb
 D:\CSInDepthProject\obj\Debug\net7.0\CSInDepthProject.genruntimeconfig.cache
 D:\CSInDepthProject\obj\Debug\net7.0\ref\CSInDepthProject.dll
+E:\CSInDepthProject\obj\Debug\net7.0\CSInDepthProject.dll
+E:\CSInDepthProject\obj\Debug\net7.0\refint\CSInDepthProject.dll
+E:\CSInDepthProject\obj\Debug\net7.0\CSInDepthProject.pdb
+E:\CSInDepthProject\bin\Debug\net7.0\CSInDepthProject.exe
+E:\CSInDepthProject\bin\Debug\net7.0\CSInDepthProject.deps.json
+E:\CSInDepthProject\bin\Debug\net7.0\CSInDepthProject.runtimeconfig.json
+E:\CSInDepthProject\bin\Debug\net7.0\CSInDepthProject.dll
+E:\CSInDepthProject\bin\Debug\net7.0\CSInDepthProject.pdb
+E:\CSInDepthProject\obj\Debug\net7.0\CSInDepthProject.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSInDepthProject\obj\Debug\net7.0\CSInDepthProject.AssemblyInfoInputs.cache
+E:\CSInDepthProject\obj\Debug\net7.0\CSInDepthProject.AssemblyInfo.cs
+E:\CSInDepthProject\obj\Debug\net7.0\CSInDepthProject.csproj.CoreCompileInputs.cache
+E:\CSInDepthProject\obj\Debug\net7.0\CSInDepthProject.genruntimeconfig.cache
+E:\CSInDepthProject\obj\Debug\net7.0\ref\CSInDepthProject.dll
