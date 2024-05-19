@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "E:\\CSInDepthProject\\CSInDepthProject.csproj": {}
+    "D:\\CSInDepthProject\\CSInDepthProject.csproj": {}
   },
   "projects": {
-    "E:\\CSInDepthProject\\CSInDepthProject.csproj": {
+    "D:\\CSInDepthProject\\CSInDepthProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CSInDepthProject\\CSInDepthProject.csproj",
+        "projectUniqueName": "D:\\CSInDepthProject\\CSInDepthProject.csproj",
         "projectName": "CSInDepthProject",
-        "projectPath": "E:\\CSInDepthProject\\CSInDepthProject.csproj",
-        "packagesPath": "C:\\Users\\13150\\.nuget\\packages\\",
-        "outputPath": "E:\\CSInDepthProject\\obj\\",
+        "projectPath": "D:\\CSInDepthProject\\CSInDepthProject.csproj",
+        "packagesPath": "C:\\Users\\69567\\.nuget\\packages\\",
+        "outputPath": "D:\\CSInDepthProject\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\13150\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\69567\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.409\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }
