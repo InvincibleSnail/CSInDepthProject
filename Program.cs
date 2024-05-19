@@ -1,30 +1,14 @@
 ﻿using System.Text;
-using CSInDepthProject.ChapterSix;
+using CSInDepthProject.ChapterEight;
 
 namespace CSInDepthProject;
 
 class Programw
 {
-    private static int[] timetable = new int[] { 1, 2, 3 };
-
-    private static int i = 0;
-
-    public static IEnumerable<int> daterange
-    {
-        get
-        {
-            for (; i < timetable.Length; ++i)
-            {
-                yield return timetable[i];
-            }
-        }
-    }
-
     static void Main(string[] args)
     {
-        foreach (var day in daterange)
-        {
-            Console.WriteLine(day);
-        }
+        List<int> l = new List<int>() { 1, 2, 3, 4, 5 };
+        var test = new { He = "aha", She = "wtf" };
+        Console.WriteLine(test.He);
     }
 }
